@@ -34,6 +34,8 @@ def index():
         raise Exception("Expecting JSON payload")
     envelope = request.get_json()
     print(f"envelope recieved: {envelope}")
+    print(f"envelope recieved: {envelope}")
+    print(f"envelope recieved: {envelope}")
 
     # Check that data has been posted
     if not envelope:
